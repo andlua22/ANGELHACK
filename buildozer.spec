@@ -40,6 +40,9 @@ version = 0.1
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,kivy,android,jnius,openssl,pyjnius,requests,buildozer
+android.api = 29  # Используйте правильный номер API Android
+android.ndk = 21.1.6352462
+android.build_tools = 29.0.2  # Используйте правильную версию Build Tools
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
