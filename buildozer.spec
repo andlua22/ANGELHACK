@@ -39,10 +39,10 @@ version = 0.1
 # comma separated e.g. requirements = sqlite3,kivy
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
+# comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,kivy,android,jnius,openssl,pyjnius,requests,buildozer
-android.api = 27
+android.api = 30  # Set the appropriate Android API level
 android.ndk = 21.1.6352462
-android.sdk = 29
 android.build_tools = 29.0.2
 
 # (str) Custom source folders for requirements
